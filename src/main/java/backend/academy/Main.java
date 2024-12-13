@@ -21,6 +21,9 @@ import org.openjdk.jmh.runner.options.Options;
 import org.openjdk.jmh.runner.options.OptionsBuilder;
 import org.openjdk.jmh.runner.options.TimeValue;
 
+/**
+ * Class for include benchmark test for name method at student record class
+ */
 @State(Scope.Thread)
 public class Main {
     private static final int FORKS = 1;
